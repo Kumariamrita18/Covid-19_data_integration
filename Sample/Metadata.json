@@ -1,0 +1,81 @@
+[
+    {
+        "_id": "1",
+        "name": "MY_COVID_19",
+        "type": "Database",
+        "description": "Database of COVID-19 cases clone from various sources",
+        "source": {
+            "name": "various"
+        },
+        "date": "2024-01-01",
+        "url": "https://app.snowflake.com/qpawywz/rh69703/#/data/databases/MY_COVID_19/schemas/PUBLIC/tables"
+    },
+    {
+        "_id": "2",
+        "name": "JHU_COVID_19",
+        "type": "Table",
+        "description": "Table of COVID-19 cases from JHU",
+        "source": {
+            "name":"Snowflake Marketplace",
+            "url": "https://app.snowflake.com/marketplace/listing/GZSNZ7F5UH/starschema-covid-19-epidemiological-data"
+        },
+        "url": "https://app.snowflake.com/qpawywz/rh69703/#/data/databases/MY_COVID_19/schemas/PUBLIC/table/JHU_COVID_19/data-preview"
+    },
+    {
+        "_id": "3",
+        "name": "WORLD_POPULATION",
+        "type": "Table",
+        "description": "Table of world population",
+        "source": {
+            "name":"Kaggle",
+            "url": "https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset?resource=download"
+        }
+    },
+    {
+        "_id": "4",
+        "name": "Covid 19",
+        "type": "Dashboard",
+        "description": "Dashboard of COVID-19 cases",
+        "url": "https://app.snowflake.com/qpawywz/rh69703/#/covid-2019-dOOZid3XC"
+    },
+    {
+        "_id": "5",
+        "name": "Total Cases Number",
+        "type": "Chart",
+        "description": "Big number of total cases around the world",
+        "url": "https://app.snowflake.com/qpawywz/rh69703/w276ChXlVBLv/chart",
+        "source": {
+            "name": "JHU_COVID_19"
+        }
+    },
+    {
+        "_id": "6",
+        "name": "Total Cases by Country",
+        "type": "Chart",
+        "description": "Bar chart of total cases by country",
+        "url": "https://app.snowflake.com/qpawywz/rh69703/w4830z7pJC56/chart",
+        "source": {
+            "name": "JHU_COVID_19"
+        }
+    },
+    {
+        "_id": "7",
+        "name": "Cases Around The World",
+        "type": "Chart",
+        "description": "Map of total cases by region",
+        "url": "http://localhost:8501/world_map",
+        "source": {
+            "name": "JHU_COVID_19"
+        }
+    },
+    {
+        "_id": "8",
+        "name": "Daily Cases Number",
+        "type": "Chart",
+        "description": "Daily Cases Number",
+        "url": "http://localhost:8501/daily_case",
+        "source": {
+            "name": "JHU_COVID_19"
+        }
+    }
+]

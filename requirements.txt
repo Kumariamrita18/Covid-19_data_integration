@@ -1,0 +1,9 @@
+fastapi-cache2[redis]
+streamlit
+pandas
+plotly
+fastapi
+requests
+uvicorn
+snowflake-connector-python
+dotenv

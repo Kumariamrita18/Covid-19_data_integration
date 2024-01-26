@@ -1,0 +1,43 @@
+{
+    "database": "COVID_19",
+    "collections": [
+        {
+            "name": "Metadata",
+            "fields": {
+                "_id": "Unique ID of data",
+                "name": "Name of data",
+                "type": "Type of data (Table, Chart, Map, etc.)",
+                "description": "Description of data",
+                "source": {
+                    "name": "Name of source",
+                    "url": "URL of source"
+                },
+                "date": "Date of data",
+                "url": "URL of data"
+            }
+        },
+        {
+            "name": "Users",
+            "fields": {
+                "username": "username of user",
+                "password": "Password of user",
+                "role": "Role of user",
+                "contact": {
+                    "email": "Email of user",
+                    "phone": "Phone of user",
+                    "address": "Address of user"
+                }
+            }
+        },
+        {
+            "name": "Comments",
+            "fields": {
+                "_id": "Unique ID of comment",
+                "user": "User who made the comment",
+                "content": "Content of comment",
+                "date": "Date of comment",
+                "data_id": "ID of data that comment is on"
+            }
+        }
+    ]
+}

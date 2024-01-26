@@ -1,0 +1,59 @@
+[
+    {
+        "user": "admin",
+        "content": "This is a comment from the admin",
+        "date": "2022-01-01",
+        "data_id": "1"
+    },
+    {
+        "user": "user1",
+        "content": "Wow! Total case in China seems so low!",
+        "date": "2022-01-01",
+        "data_id": "6"
+    },
+    {
+        "user": "user2",
+        "content": "I think 1/3 of United States is infected",
+        "date": "2022-01-01",
+        "data_id": "6"
+    },
+    {
+        "user": "user1",
+        "content": "Dot Density & Size:  The concentration and size of dots usually indicate the number of cases, with larger or more densely packed dots suggesting higher numbers.",
+        "date": "2022-01-01",
+        "data_id": "7"
+    },
+    {
+        "user": "user2",
+        "content": "Geographic Distribution: There seems to be a higher concentration of cases in Europe, North America, South America, and parts of Asia. This could imply that these regions have higher total case counts.",
+        "date": "2022-01-01",
+        "data_id": "7"
+    },
+    {
+        "user": "admin",
+        "content": "Variability: There's considerable variability in data points, with some regions showing sparse and small dots, potentially indicating lower case numbers.",
+        "date": "2022-01-01",
+        "data_id": "7"
+    },
+    {
+
+        "user": "user1",
+        "content": "Confirmed Cases: These are represented by blue bars. The graph shows several peaks indicating waves of confirmed cases. Notably, there is a significant surge around January 2022.",
+        "date": "2022-01-01",
+        "data_id": "8"
+    },
+    {
+
+        "user": "user2",
+        "content": "Deaths: The death cases, indicated by the thin red line at the bottom, appear to be relatively low in comparison to the confirmed cases. This suggests a lower case fatality rate, although exact numbers cannot be determined without more data.",
+        "date": "2022-01-01",
+        "data_id": "8"
+    },
+    {
+
+        "user": "admin",
+        "content": "Data Trends: There is a visible trend of increasing cases over time, with the largest peaks occurring in 2022. This could be due to the spread of more infectious variants or changes in testing regimes.        ",
+        "date": "2022-01-01",
+        "data_id": "8"
+    }
+]

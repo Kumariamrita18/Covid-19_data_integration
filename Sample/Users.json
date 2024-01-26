@@ -1,0 +1,32 @@
+[
+    {
+        "username": "admin",
+        "password": "admin",
+        "role": "admin",
+        "contact": {
+            "email": "admin@snowflake.com",
+            "phone": "1234567890",
+            "address": "admin address"
+        }
+    },
+    {
+        "username": "user1",
+        "password": "user1",
+        "role": "public",
+        "contact": {
+            "email": "user1@snowflake.com",
+            "phone": "1234567890",
+            "address": "user1 address"
+        }
+    },
+    {
+        "username": "user2",
+        "password": "user2",
+        "role": "public",
+        "contact": {
+            "email": "user2@snowflake.com",
+            "phone": "1234567890",
+            "address": "user2 address"
+        }
+    }
+]
